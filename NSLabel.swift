@@ -18,9 +18,17 @@
 
 import Cocoa
 
+/**
+ # Summary
+ A view that displays one or more lines of read-only text, often used in conjunction with controls to describe their intended purpose.
+ # Declaration
+    class NSLabel: NSView
+ #Discussion
+ The appearance of labels is configurable...
+ */
 class NSLabel: NSView {
     
-    let defaultBackgroundColor = NSColor.windowBackgroundColor
+    let defaultBackgroundColor = NSColor.clear
     
     // MARK: - Properties
     
@@ -218,3 +226,5 @@ class NSLabel: NSView {
         return paragraphStyle
     }
 }
+
+let l = NSLabel()
