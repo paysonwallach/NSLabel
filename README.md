@@ -15,7 +15,7 @@ There are no dependencies other than the Cocoa framework.
 
 ## Usage
 
-Simply include NSLabel.swift in your project and use it like you would [UILabel](https://developer.apple.com/documentation/uikit/uilabel) (Note that not all features have been implemented yet).
+Simply include NSLabel.swift in your project and use it like you would [UILabel](https://developer.apple.com/documentation/uikit/uilabel) Note that not all features have been implemented yet. Use quick help (`Option + hover`) to check if a feature is still in development.
 
 ## Contributing
 
