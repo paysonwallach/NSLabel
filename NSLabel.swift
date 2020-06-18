@@ -49,7 +49,7 @@ open class NSLabel: NSView {
     public var text: String? {
         didSet {
             self.invalidateIntrinsicContentSize()
-            self.setNeedsDisplay(drawingRect)
+            self.needsDisplay = true
         }
     }
     
@@ -62,7 +62,7 @@ open class NSLabel: NSView {
     public var attributedText: NSAttributedString? {
         didSet {
             self.invalidateIntrinsicContentSize()
-            self.setNeedsDisplay(drawingRect)
+            self.needsDisplay = true
         }
     }
     
@@ -103,7 +103,7 @@ open class NSLabel: NSView {
     public var textAlignment: NSTextAlignment {
         didSet {
             self.invalidateIntrinsicContentSize()
-            self.setNeedsDisplay(drawingRect)
+            self.needsDisplay = true
         }
     }
     
@@ -116,7 +116,7 @@ open class NSLabel: NSView {
     public var lineBreakMode: NSLineBreakMode {
         didSet {
             self.invalidateIntrinsicContentSize()
-            self.setNeedsDisplay(drawingRect)
+            self.needsDisplay = true
         }
     }
     
